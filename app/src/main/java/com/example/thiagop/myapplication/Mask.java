@@ -13,7 +13,7 @@ public abstract class Mask {
     public static String CNPJ_MASK      = "##.###.###/####-##";
     public static String CELULAR_MASK   = "(##) ##### ####";
     public static String CEP_MASK       = "#####-###";
-    public static String PRECO_MASK       = "#,##";
+    public static String NOME_DA_EMPRESA       = "###################################";
 
     public static String unmask(String s) {
         return s.replaceAll("[.]", "").replaceAll("[-]", "")
